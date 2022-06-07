@@ -1,0 +1,37 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color:darksalmon;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    border-spacing: 25px;
+    
+
+}
+
+th {
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+td {
+    margin: 10px;
+}
+
+.Action {
+}
+
+table, th, td {
+    border: 2px solid orangered;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+    width: 300px;
+}

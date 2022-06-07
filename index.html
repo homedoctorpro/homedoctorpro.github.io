@@ -1,9 +1,89 @@
+<!DOCTYPE html>
 <html>
- 
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
 <body>
-  <h1>Phil Ross</h1>
-  <p>Welcome to my website! - HomeDoctor!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+
+<h1>Instructional Table</h1>
+<h2>How to implement a font</h2>
+<table>
+    <thead>
+        <th>
+            Steps
+        </th>
+        <th class="Action">
+            Action
+        </th>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="Step">
+                Step 1
+            </td>
+            <td>
+                Go to https://fonts.google.com/
+            </td>
+        </tr>
+        <tr>
+            <td class="Step">
+                Step 2
+            </td>
+            <td>
+                Select all the fonts you want
+            </td>
+        </tr>
+        <tr>
+            <td class="Step">
+                Step 3
+            </td>
+            <td>
+                Copy and paste the link code into your HTML (head section) <pre><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"></pre>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>How to implement a font (alternate method) </h2>
+<table>
+    <thead>
+        <th>
+            Steps
+        </th>
+        <th class="Action">
+            Action
+        </th>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="Step">
+                Step 1
+            </td>
+            <td>
+                Go to https://fonts.google.com/
+            </td>
+        </tr>
+        <tr>
+            <td class="Step">
+                Step 2
+            </td>
+            <td>
+                Select all the fonts you want and download them into a folder in your directory
+            </td>
+        </tr>
+        <tr>
+            <td class="Step">
+                Step 3
+            </td>
+            <td>
+                Add the following code in this format: @font-face {
+                    font-family: 'MyParagraphFont';
+                    src: url('fonts/Roboto.woff2') format('woff2'),
+                         url('fonts/Roboto.woff') format('woff'),
+                         url('fonts/Roboto.ttf') format('truetype');
+            </td>
+        </tr>
+    </tbody>
+</table>
 </body>
- 
 </html>
