@@ -1,10 +1,93 @@
 *{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color:darksalmon;
+}
+
+h1 {
+    
+    margin: 20px;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Gentium Plus', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    margin: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.big {
+    border: solid gray 2px;
+    padding: 20px;
+    margin: 60px;
+    width: 1300px;
+}
+
+.color {
+    width: 200px;
+    padding: 20px;
     text-align: center;
+    display: inline-block;
+    margin: 20px;
+}
+
+#color-1 {
+    background-color: cadetblue;
+    color: #fff;
+}
+
+#color-2 {
+    background-color: orangered;
+    color: #fff;
+}
+
+#color-3 {
+    background-color: palevioletred;
+    color: #fff;
+}
+
+#color-4 {
+    background-color: goldenrod;
+    color: #fff;
+}
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+
+.font-1 > * {
+    font-family: 'Montserrat';
+}
+
+.font-2 > * {
+    font-family: 'Ubuntu';
+}
+
+.font-3 > * {
+    font-family: 'Gentium Plus';
+}
+
+.textbox {
+    display: inline-block;
+    margin: 30px;
 }
 
 table {
