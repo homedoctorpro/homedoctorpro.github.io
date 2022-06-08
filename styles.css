@@ -2,9 +2,6 @@
     font-family:'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-}
-
 h1 {
     
     margin: 20px;
@@ -93,8 +90,6 @@ p {
 table {
     margin: auto;
     border-spacing: 25px;
-    
-
 }
 
 th {
@@ -104,9 +99,6 @@ th {
 
 td {
     margin: 10px;
-}
-
-.Action {
 }
 
 table, th, td {
